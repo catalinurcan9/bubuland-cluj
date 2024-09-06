@@ -1390,7 +1390,7 @@ a {
 }
 .cid-ujcZG5aFBn {
   display: flex;
-  background-image: url("../../../assets/images/background-hero-4.webp");
+  background-image: url("../../../assets/images/background-hero.webp");
 }
 .cid-ujcZG5aFBn .mbr-overlay {
   background-color: #000000;
@@ -2198,6 +2198,13 @@ a {
 }
 .cid-ujQXW98NZi .bg-secondary {
   background: #C79669 !important;
+}
+.cid-ujQXW98NZi .clamped {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 10;
 }
 .cid-uk36C2ZQJ3 {
   padding-top: 4rem;
